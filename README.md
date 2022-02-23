@@ -13,7 +13,7 @@ All images and their associated annotations in the dataset can be used for acade
 
 #### Report
   
-  The Detailed Experimental Record:
+  The Detailed Experimental Record: 
   http://arxiv.org/abs/2202.10974
   
   ![demo image](resources/report.jpg)
