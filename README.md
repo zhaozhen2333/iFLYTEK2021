@@ -1,5 +1,5 @@
 # The-iFLYTEK-2021-Cultivatedland-Extraction-From-High-Resolution-Remote-Sensing-Image-Challenge
-Our code was developed based on the mmdetection
+Our code is developed based on the mmdetection. All the our code is in the file "out_shp"
 ## 0. Dataset
 Thanks iFLYTEK and ChangGuang Satellite.
 
