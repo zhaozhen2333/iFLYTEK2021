@@ -1,5 +1,5 @@
 # The-iFLYTEK-2021-Cultivatedland-Extraction-From-High-Resolution-Remote-Sensing-Image-Challenge
-The Winning Solution to the Cultivated land Extraction From High-Resolution Remote Sensing Image Challenge
+Our code was developed based on the mmdetection
 ## 1. 环境配置
 
 本地运行的环境配置是针对linux系统和2080Ti显卡，如果测试时，遇到环境配置不符合，还请再联系
@@ -37,3 +37,56 @@ The Winning Solution to the Cultivated land Extraction From High-Resolution Remo
   ``` shell
   conda install pytorch=1.7.0 torchvision torchaudio cudatoolkit=11.0 -c pytorch
    ```
+- **2. mmdetection安装**
+ 
+  安装MMDetection和MIM，它会自动处理OpenMMLab项目的依赖，包括mmcv等python包 
+  
+  ``` shell
+  pip install openmim
+  mim install mmdet
+   ```
+  可能出现找不到dist_train.sh和dist_test.sh的情况，请先运行
+  
+  ``` shell
+  cd mmdetection
+  chmod 777 ./tools/dist_train.sh
+  chmod 777 ./tools/dist_test.sh
+   ```
+  MMDetection 是一个基于 PyTorch 的目标检测开源工具箱。它是 [OpenMMLab](https://openmmlab.com/) 项目的一部分。
+  MMDetection安装文档：[快速入门文档](docs/get_started.md)
+
+- **3. 必须的函数包安装**
+  
+  安装sklearn
+  ``` shell
+  pip install sklearn
+   ```
+  安装imgaug
+  ``` shell
+  pip install imgaug
+   ```
+  安装shapefile
+  ``` shell
+  pip install pyshp
+   ```
+  安装tqdm
+  ``` shell
+  pip install tqdm
+   ```
+  安装gdal
+  ``` shell
+  conda install -c conda-forge gdal
+   ```
+  安装shapely
+  ``` shell
+  pip install shapely
+   ```
+  安装skimage
+  ``` shell
+  pip install scikit-image
+   ```
+## 2. 运行说明
+- **文件说明**
+
+  文件结果如图所示,请您在训练前将初赛的原始数据复制到train/init_images内，tif文件直接放在image文件夹下，shp文件直接放在label文件夹下；\
+  测试前将复赛数据tif文件直接复制到inference/images内
