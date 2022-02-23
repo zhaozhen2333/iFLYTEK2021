@@ -1,8 +1,10 @@
 # The-iFLYTEK-2021-Cultivatedland-Extraction-From-High-Resolution-Remote-Sensing-Image-Challenge
 Our code was developed based on the mmdetection
 ## 0. Dataset
-Thanks iFLYTEK and ChangGuang Satellite
-All images and their associated annotations in DOTA can be used for academic purposes only, but any commercial use is prohibited.
+Thanks iFLYTEK and ChangGuang Satellite.
+
+All images and their associated annotations in the dataset can be used for academic purposes only, but any commercial use is prohibited.
+
 dataset are available at:
 链接：https://pan.baidu.com/s/1_yFbJ6nX1ovOK0_9BZ5Lrg?pwd=1234 
 提取码：1234
