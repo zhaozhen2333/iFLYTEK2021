@@ -144,7 +144,7 @@ dataset are available at:
 
 Implementation of `HTC <https://arxiv.org/abs/1901.07518>`
 
-![demo image](resources/models.png)
+![demo image](resources/models.jpg)
 
 - **HTC结构将bbox回归和mask预测交织进行，在每个阶段中以多任务的方式将两者结合，增强了不同任务之间的信息流**
 
