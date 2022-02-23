@@ -18,7 +18,7 @@ All images and their associated annotations in the dataset can be used for acade
   
   ![demo image](resources/report.jpg)
   
-  ![demo image](resources/report0.jpg)
+  ![demo image](resources/report1.jpg)
 
 ## 1. 环境配置
 
