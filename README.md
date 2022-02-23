@@ -13,8 +13,12 @@ All images and their associated annotations in the dataset can be used for acade
 
 #### Report
   
-  The Experimental Record:
+  The Detailed Experimental Record:
   http://arxiv.org/abs/2202.10974
+  
+  ![demo image](resources/report.jpg)
+  
+  ![demo image](resources/report0.jpg)
 
 ## 1. 环境配置
 
