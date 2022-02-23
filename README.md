@@ -127,8 +127,6 @@ dataset are available at:
 
 
 - **运用如下图所示的滑窗剪切图片，首先以height_stride的步长向下移动，直至达到图片的下边界，然后以width_stride向右平移一单位，继续以height_stride的步长向下移动，以剪切出小图组成数据集**
-  
-![demo image](resources/1.jpg)
 
 - **当滑窗的下边界超出图片的下边界时，停止移动，以图片的下边界作为滑窗的下边界；当滑窗的右边界超出图片的右边界时，停止移动，以图片的右边界作为滑窗的右边界；**
 
@@ -146,7 +144,7 @@ dataset are available at:
 
 Implementation of `HTC <https://arxiv.org/abs/1901.07518>`
 
-![demo image](resources/models.tif)
+![demo image](resources/models.png)
 
 - **HTC结构将bbox回归和mask预测交织进行，在每个阶段中以多任务的方式将两者结合，增强了不同任务之间的信息流**
 
