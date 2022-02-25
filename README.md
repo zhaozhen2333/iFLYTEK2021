@@ -20,6 +20,10 @@ All images and their associated annotations in the dataset can be used for acade
   
   ![demo image](resources/report1.jpg)
 
+#### Some Question
+When we use the sliding window to cut the original raw data, the size of some tiles will be smaller than the minimum size allowed for input. Please add these codes in transformer.py.
+![demo image](resources/10.jpg)
+
 ## 1. 环境配置
 
 本地运行的环境配置是针对linux系统和2080Ti显卡，如果测试时，遇到环境配置不符合，还请再联系
