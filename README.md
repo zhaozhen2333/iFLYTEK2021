@@ -215,8 +215,21 @@ Midst：(imageHeight = 1536, imageWidth = 1536, xmin ≠ 0, ymin ≠ 0)
    
 
 ## Citation
-@article{2022The,\
-  title={The Winning Solution to the iFLYTEK Challenge 2021 Cultivated Land Extraction from High-Resolution Remote Sensing Image},\
-  author={ Zhao, Z.  and  Liu, Y.  and  Zhang, G.  and  Tang, L.  and  Hu, X. },\
-  year={2022},\
-}
+@INPROCEEDINGS{9837765,
+
+  author={Zhao, Zhen and Liu, Yuqiu and Zhang, Gang and Tang, Liang and Hu, Xiaolin},
+
+  booktitle={2022 14th International Conference on Advanced Computational Intelligence (ICACI)}, 
+
+  title={The Winning Solution to the iFLYTEK Challenge 2021 Cultivated Land Extraction from High-Resolution Remote Sensing Images}, 
+
+  year={2022},
+
+  volume={},
+
+  number={},
+
+  pages={376-380},
+
+  doi={10.1109/ICACI55529.2022.9837765}}
+
