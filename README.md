@@ -61,6 +61,17 @@ When we use the sliding window to cut the original raw data, the size of some ti
   ``` shell
   conda install pytorch=1.7.0 torchvision torchaudio cudatoolkit=11.0 -c pytorch
    ```
+   
+   2022年10月补充：
+   pytorch版本更新了，现在这个时间需要升级使用新版本
+   安装pytorch
+
+  ``` shell
+  conda install pytorch=1.7.1 torchvision torchaudio cudatoolkit=11.0 -c pytorch
+   ```
+  mmdetection版本也更新了，mmcv有时会不匹配，只需要更换mmcv。我们自己的代码全在out_shp里，请将out_shp放入最新版的mmdetection里面。
+  
+   
 - **2. mmdetection安装**
  
   安装MMDetection和MIM，它会自动处理OpenMMLab项目的依赖，包括mmcv等python包 
