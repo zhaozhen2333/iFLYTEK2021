@@ -63,8 +63,7 @@ When we use the sliding window to cut the original raw data, the size of some ti
    ```
    
    2022年10月补充：
-   pytorch版本更新了，现在这个时间需要升级使用新版本
-   安装pytorch
+   pytorch版本更新了，现在这个时间需要升级使用新版本，对于所有的10、20、30显卡安装pytorch
 
   ``` shell
   conda install pytorch=1.7.1 torchvision torchaudio cudatoolkit=11.0 -c pytorch
