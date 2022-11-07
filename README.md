@@ -110,7 +110,8 @@ When we use the sliding window to cut the original raw data, the size of some ti
   <strike>安装gdal
   ``` shell
   conda install -c conda-forge gdal
-   ```</strike>
+   ```
+  </strike>
   似乎gdal不能处理tiff文件了，不知道为什么，可以安装tifffile
   ``` shell
   conda install -c conda-forge tifffile
