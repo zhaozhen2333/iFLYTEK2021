@@ -51,10 +51,10 @@ When we use the sliding window to cut the original raw data, the size of some ti
   ``` shell
   conda activate torch_1_7
    ```
-  <strike>安装pytorch<strike>
+  <strike>安装pytorch</strike>
 
   ``` shell
-  <strike>conda install pytorch=1.7.0 torchvision torchaudio cudatoolkit=10.2 -c pytorch<strike>
+  <strike>conda install pytorch=1.7.0 torchvision torchaudio cudatoolkit=10.2 -c pytorch</strike>
    ```
   3080Ti显卡需要CUDA11.0及以上，安装pytorch版本如下
 
@@ -107,9 +107,9 @@ When we use the sliding window to cut the original raw data, the size of some ti
   ``` shell
   pip install tqdm
    ```
-  <strike>安装gdal<strike>
+  <strike>安装gdal</strike>
   ``` shell
-  <strike>conda install -c conda-forge gdal<strike>
+  <strike>conda install -c conda-forge gdal</strike>
    ```
   似乎gdal不能处理tiff文件了，不知道为什么，可以安装tifffile
   ``` shell
