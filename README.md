@@ -107,10 +107,10 @@ When we use the sliding window to cut the original raw data, the size of some ti
   ``` shell
   pip install tqdm
    ```
-  <strike>安装gdal</strike>
+  <strike>安装gdal
   ``` shell
-  <strike>conda install -c conda-forge gdal</strike>
-   ```
+  conda install -c conda-forge gdal
+   ```</strike>
   似乎gdal不能处理tiff文件了，不知道为什么，可以安装tifffile
   ``` shell
   conda install -c conda-forge tifffile
