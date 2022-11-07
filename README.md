@@ -119,7 +119,8 @@ When we use the sliding window to cut the original raw data, the size of some ti
   conda install -c conda-forge tifffile
    ```
    
-   使用tifffile.imread(path)
+  使用tifffile.imread(path)
+   
   安装shapely
   ``` shell
   pip install shapely
