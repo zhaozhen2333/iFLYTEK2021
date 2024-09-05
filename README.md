@@ -1,4 +1,4 @@
-# The-iFLYTEK-2021-Cultivatedland-Extraction-From-High-Resolution-Remote-Sensing-Image-Challenge
+# The-iFLYTEK-2021-Cultivatedland-Extraction-From-High-Resolution-Remote-Sensing-Image-Challenge (1/486)
 Our code is developed based on the mmdetection. All the our code is in the file "out_shp"
 
 Extracting cultivated land accurately from high-resolution remote images is a basic task for precision agriculture. This work introduces our solution to iFLYTEK challenge 2021 cultivated land extraction from high-resolution remote sensing images. We established a highly effective and efficient pipeline to solve this problem. We first divided the original images into small tiles and separately performed instance segmentation on each tile. We explored several instance segmentation algorithms
